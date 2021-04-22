@@ -11,7 +11,7 @@ let bot = new Wechaty({
 
 //  二维码生成
 function onScan(qrcode: string) {
-    require('qrcode-terminal').generate(qrcode); // 在console端显示二维码
+    console.log('请用浏览器打开以下连接');
     const qrcodeImageUrl = [
         'https://wechaty.js.org/qrcode/',
         encodeURIComponent(qrcode),
