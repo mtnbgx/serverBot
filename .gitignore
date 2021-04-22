@@ -1,0 +1,4 @@
+.idea/
+node_modules/
+wechat-puppet-wechat.memory-card.json
+dist/
